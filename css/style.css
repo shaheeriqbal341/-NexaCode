@@ -2019,3 +2019,230 @@ font-size:72px;
 
 }
 
+
+/*==================================================
+                DARK MODE
+==================================================*/
+
+.dark-mode{
+    background:#0f172a;
+    color:#ffffff;
+}
+
+.dark-mode section{
+    background:transparent !important;
+}
+
+.dark-mode .card{
+    background:#1e293b;
+    color:#ffffff;
+}
+
+.dark-mode .card p{
+    color:#cbd5e1;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6{
+    color:#ffffff;
+}
+
+.dark-mode .form-control{
+    background:#1e293b;
+    color:#ffffff;
+    border-color:#334155;
+}
+
+.dark-mode .form-control::placeholder{
+    color:#94a3b8;
+}
+
+.dark-mode footer{
+    background:#020617 !important;
+}
+
+.dark-mode .accordion-button{
+    background:#1e293b;
+    color:#fff;
+}
+
+.dark-mode .accordion-body{
+    background:#111827;
+    color:#cbd5e1;
+}
+
+/*==================================================
+        PART 7.1.1 PREMIUM DARK MODE
+==================================================*/
+
+/* Smooth Theme Transition */
+
+body,
+section,
+.card,
+.navbar,
+footer,
+.btn,
+input,
+textarea,
+.accordion-item,
+.accordion-button,
+.progress,
+.progress-bar{
+
+transition:all .35s ease;
+
+}
+
+/* Background */
+
+.dark-mode{
+
+background:#0b1120;
+
+}
+
+/* Sections */
+
+.dark-mode .about,
+.dark-mode .services,
+.dark-mode .portfolio,
+.dark-mode .team,
+.dark-mode .pricing,
+.dark-mode .faq,
+.dark-mode .contact,
+.dark-mode .skills,
+.dark-mode .testimonials{
+
+background:#0f172a !important;
+
+}
+
+/* Cards */
+
+.dark-mode .card{
+
+background:#1e293b;
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+/* Headings */
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6{
+
+color:#ffffff;
+
+}
+
+/* Paragraph */
+
+.dark-mode p,
+.dark-mode li,
+.dark-mode span{
+
+color:#cbd5e1;
+
+}
+
+/* Navbar */
+
+.dark-mode .navbar{
+
+background:rgba(2,6,23,.95);
+
+}
+
+/* Inputs */
+
+.dark-mode input,
+.dark-mode textarea{
+
+background:#1e293b;
+color:#fff;
+border:1px solid #334155;
+
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder{
+
+color:#94a3b8;
+
+}
+
+/* Accordion */
+
+.dark-mode .accordion-item{
+
+background:#1e293b;
+
+}
+
+.dark-mode .accordion-button{
+
+background:#1e293b;
+color:#fff;
+
+}
+
+.dark-mode .accordion-body{
+
+background:#111827;
+color:#cbd5e1;
+
+}
+
+/* Footer */
+
+.dark-mode footer{
+
+background:#020617 !important;
+
+}
+
+/* Progress */
+
+.dark-mode .progress{
+
+background:#334155;
+
+}
+
+/* Google Map */
+
+.dark-mode iframe{
+
+filter:grayscale(100%)
+invert(92%)
+contrast(95%);
+
+}
+
+/* Scrollbar */
+
+.dark-mode::-webkit-scrollbar-track{
+
+background:#111827;
+
+}
+
+/* Selection */
+
+.dark-mode ::selection{
+
+background:#00c6ff;
+
+color:#fff;
+
+}
+
