@@ -1824,7 +1824,7 @@ img{
     width:70px;
     height:70px;
     border:6px solid #e5e7eb;
-    border-top:6px solid #00c6ff;
+    border-top:6px solid #02bef2;
     border-radius:50%;
     animation:spin 1s linear infinite;
 }
@@ -2158,7 +2158,7 @@ color:#c8d2de;
 
 .dark-mode .navbar{
 
-background:rgba(2, 6, 23, 0.95);
+background:rgba(1, 4, 16, 0.95);
 
 }
 
