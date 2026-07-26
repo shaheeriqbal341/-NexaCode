@@ -1630,12 +1630,12 @@ img{
     background:var(--gradient);
     border-radius:30px;
     padding:60px;
-    color:#fff;
+    color:#f8f5f5;
 }
 
 .newsletter h2,
 .newsletter p{
-    color:#fff;
+    color:#f0efef;
 }
 
 .newsletter .form-control{
