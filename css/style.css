@@ -1576,7 +1576,7 @@ img{
 
 .contact .form-control:focus{
     border-color:var(--primary);
-    box-shadow:0 0 0 4px rgba(0,198,255,.10);
+    box-shadow:0 0 0 4px rgba(0, 190, 243, 0.1);
 }
 
 .contact textarea.form-control{
